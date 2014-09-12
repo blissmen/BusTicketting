@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bus.ticketing.system.Seats_70Controller">
+    <children>
+        <GridPane fx:id="panel" prefHeight="151.0" prefWidth="809.0">
+            <children>
+                <ToggleButton fx:id="forty_five" layoutX="54.0" layoutY="12.0" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="45" GridPane.columnIndex="11" />
+                <ToggleButton fx:id="forty_four" layoutX="54.0" layoutY="12.0" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="44" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="thirty_eight" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="38" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="thirty_nine" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="39" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="forty" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="40" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="forty_one" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="41" GridPane.columnIndex="10" />
+                <ToggleButton fx:id="thirty_six" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="36" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="thirty_seven" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="37" GridPane.columnIndex="9" />
+                <ToggleButton fx:id="thirty_two" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="32" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="thirty_four" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="34" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="thirty_five" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="35" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="thirty_three" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="33" GridPane.columnIndex="8" />
+                <ToggleButton fx:id="twenty_eight" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="28" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="twenty_nine" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="29" GridPane.columnIndex="7" />
+                <ToggleButton fx:id="twenty_five" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="25" GridPane.columnIndex="6" />
+                <ToggleButton fx:id="twenty_four" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="24" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="thirty" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="30" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="thirty_one" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="31" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="twenty_six" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="26" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="twenty_seven" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="27" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="twenty_two" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="22" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="twenty_three" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="23" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="eighteen" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="18" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="nineteen" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="19" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="fifteen" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="15" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="sixteen" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="16" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="twenty" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="20" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="fourty_eight" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="48" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="fifty_seven" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="57" GridPane.columnIndex="14" />
+                <ToggleButton fx:id="fourteen" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="14" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="twenty_one" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="21" GridPane.columnIndex="5" />
+                <ToggleButton fx:id="seventeen" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="17" GridPane.columnIndex="4" />
+                <ToggleButton fx:id="ten" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="10" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="six" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="eleven" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="11" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="twelve" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="12" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="eight" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="8" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="four" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="4" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="seven" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="7" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="three" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="3" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="two" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <ToggleButton mnemonicParsing="false" prefHeight="36.0" prefWidth="44.0" selected="true" text="driver" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.rowIndex="3" GridPane.rowSpan="2">
+                    <font>
+                        <Font size="11.0" />
+                    </font>
+                </ToggleButton>
+                <ToggleButton fx:id="one" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="1" GridPane.rowSpan="2" />
+                <ToggleButton fx:id="thirteen" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="13" GridPane.columnIndex="3" />
+                <ToggleButton fx:id="nine" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="9" GridPane.columnIndex="2" />
+                <ToggleButton fx:id="five" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="5" GridPane.columnIndex="1" />
+                <ToggleButton fx:id="sixty_three" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="63" GridPane.columnIndex="16" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="fifty_nine" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="59" GridPane.columnIndex="15" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="sixty_six" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="66" GridPane.columnIndex="17" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="sixty_two" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="62" GridPane.columnIndex="16" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="fifty_eight" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="58" GridPane.columnIndex="15" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="fifty_four" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="54" GridPane.columnIndex="14" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="fifty" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="50" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="fourty_six" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="46" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="fourty_two" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="42" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+                <ToggleButton fx:id="fifty_one" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="51" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="fourty_seven" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="47" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="fourty_three" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="43" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="sixty_four" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="64" GridPane.columnIndex="16" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="seventy" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="70" GridPane.columnIndex="17" />
+                <ToggleButton fx:id="sixty_nine" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="69" GridPane.columnIndex="17" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="sixty_eight" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="68" GridPane.columnIndex="17" GridPane.rowIndex="2" />
+                <ToggleButton fx:id="sixty_seven" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="67" GridPane.columnIndex="17" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="fifty_five" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="55" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+                <ToggleButton fx:id="fifty_six" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="56" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="sixty_five" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="65" GridPane.columnIndex="16" />
+                <ToggleButton fx:id="sixty_one" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="61" GridPane.columnIndex="15" />
+                <ToggleButton fx:id="sixty" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="60" GridPane.columnIndex="15" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="fifty_two" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="52" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+                <ToggleButton fx:id="fifty_three" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="53" GridPane.columnIndex="13" />
+                <ToggleButton fx:id="fourty_nine" mnemonicParsing="false" onAction="#AddSeat" prefHeight="25.0" prefWidth="74.0" text="49" GridPane.columnIndex="12" />
+            </children>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+    </children>
+</AnchorPane>

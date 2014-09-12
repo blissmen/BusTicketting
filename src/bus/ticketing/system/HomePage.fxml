@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1010.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bus.ticketing.system.HomePageController">
+   <children>
+      <ScrollPane prefHeight="500.0" prefWidth="1300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+            <Pane>
+               <children>
+                  <AnchorPane fx:id="anchor" layoutX="14.0" layoutY="404.0" prefHeight="400.0" prefWidth="1270.0" style="-fx-border-color: black;" />
+                  <AnchorPane layoutX="14.0" layoutY="349.0" prefHeight="48.0" prefWidth="1270.0" style="-fx-border-color: black;" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="349.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="8.0" text="Services">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <GridPane layoutX="98.0" layoutY="1.0" prefHeight="46.0" prefWidth="1158.0" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="14.0">
+                          <columnConstraints>
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#viewReports" prefHeight="25.0" prefWidth="130.0" text="Reports" GridPane.columnIndex="2">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#sendMail" prefHeight="5.0" prefWidth="130.0" text="Mailing" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#bookSeat" prefHeight="25.0" prefWidth="130.0" text="Booking">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

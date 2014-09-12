@@ -1,0 +1,9 @@
+initialize
+get all the locations(towns form the database)
+add them to the arraylists(depature and destination) and bind it to the comboboxes
+get all the bus numbers
+add them to the arraylist and bind them to the combobox
+
+create listeners for all the comboboxes
+
+Each time an item in the cpmbobox is selected, update the appropriate fields
